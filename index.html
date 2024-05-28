@@ -1,71 +1,80 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receipt</title>
-    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <div class="receipt-container">
+    <div class="receipt-holder">
         <div class="receipt-header">
-            <h4 class="brand-mobile">
-                +91-9657615539
-            </h4>
-            <h2 class="brand-title">MK's Brand</h2>
-            <img src="profilepranjal.png" class="brand-logo">
+            <img src="./profilepranjal.png" class="receipt-img" alt="img" />
+            <div class="receipt-header-txt">MK Brand House</div>
+            <div class="Address">
+                <p>414,Gokul Colony<br />Rahuri,<br />Maharashtra 413705</p>
+            </div>
+
+            <div class="Mobile">
+                <p>+91-1234567895</p>
+            </div>
         </div>
-        <hr>
 
         <div class="receipt-body">
-            <h3 class="receipt-title">
-                Payment Receipt
-            </h3>
+            <div class="receipt-txt">Payment Receipt</div>
 
-            <div class="receipt-detail">
-                <div class="receipt-detail-key">
-                    Receipt No. :
+            <div class="reciept-detail">
+                <div class="reciept-key">
+                    Receipt No :
                 </div>
-                <div class="receipt-detail-value">
-                    13815
+                <div class="receipt-value">
+                    1332457
                 </div>
             </div>
 
-            <div class="receipt-detail">
-                <div class="receipt-detail-key">
+            <div class="reciept-detail">
+                <div class="reciept-key">
                     Payment Date :
                 </div>
-                <div class="receipt-detail-value">
-                    14 May 2024
+                <div class="receipt-value">
+                    26 May 2024
                 </div>
             </div>
 
-            <div class="receipt-detail">
-                <div class="receipt-detail-key">
+            <div class="reciept-detail">
+                <div class="reciept-key">
                     Amount :
                 </div>
-                <div class="receipt-detail-value">
-                    1300/-
+                <div class="receipt-value">
+                    25000/-
                 </div>
             </div>
 
-            <div class="receipt-detail">
-                <div class="receipt-detail-key">
+            <div class="reciept-detail">
+                <div class="reciept-key">
                     Payment Mode :
                 </div>
-                <div class="receipt-detail-value">
-                    cash
+                <div class="receipt-value">
+                    Cash
                 </div>
             </div>
 
-            <img src="stamp.png" class="stamp">
+            <div class="stamp">
+                <img src="./icons8-paid-bill-stamp-50.png" class="stamp-img" alt="stamp"/>
+                <p>Signature</p>
+            </div>
+            
         </div>
+
         <div class="receipt-footer">
-            Thank you for payment.
+            <div class="footer-txt">
+                Thank you
+            </div>
         </div>
     </div>
-</body>
 
+</body>
 </html>
